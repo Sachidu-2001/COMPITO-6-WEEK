@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compito6week</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/COMPITOWEEK6.css">
+
+</head>
+
+<body class="bg-black text-white">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img height="40" src="assets/img/netflix_logo.png" class="img" />
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">TV Show</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Recently Added</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">My List</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-content-baseline">
+                    <i class="bi bi-search px-2" alt="Search"></i>
+                    <p class="px-2">KIDS</p>
+                    <i class="bi bi-bell-fill px-2" alt="Bell"></i>
+                    <div class="nav-item dropdown px-2 pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img height="40" src="assets/img/avatar.png" alt="avatar logo" />
+                        </a>
+                        <ul class="dropdown-menu bg-black">
+                            <li class="btnDropdown"><a class="dropdown-item text-white colorSwitch" href="#">
+                                    <img height="30" src="assets/img/avatar.png" />Epicoder</a></li>
+                            <li class="btnDropdown"><a class="dropdown-item text-white colorSwitch" href="editprofile.html">Manage Profiles</a>
+                            </li>
+                            <li class="btnDropdown"><a class="dropdown-item text-white colorSwitch" href="#">Account</a></li>
+                            <li class="btnDropdown"><a class="dropdown-item text-white colorSwitch" href="#">Help Center</a></li>
+                            <li class="btnDropdown"><a class="dropdown-item text-white colorSwitch" href="#">Signout Netflix</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <section>
+        <div class="d-flex justify-content-between">
+            <div class="d-flex">
+                <h1 class="h3 pe-4">
+                    TV Shows
+                </h1>
+                <div class="dropdown">
+                    <button class="btn btn-black text-white border-white dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Genres
+                    </button>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item text-white colorSwitch" href="#">Action</a></li>
+                        <li><a class="dropdown-item text-white colorSwitch" href="#">Comedy</a></li>
+                        <li><a class="dropdown-item text-white colorSwitch" href="#">Thriller</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="border border-white">
+
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="border border-white">
+                    <i class="bi bi-grid"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="py-4">
+            <h2 class="h4 ps-5">Trending Now</h2>
+            <div id="TrendingNowCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media0.webp" class="col-2" alt="Sherlock">
+                                <img src="assets/img/media/media1.jpg" class="col-2" alt="American History">
+                                <img src="assets/img/media/media10.jpg" class="col-2" alt="Spy">
+                                <img src="assets/img/media/media11.jpg" class="col-2" alt="The College">
+                                <img src="assets/img/media/media12.jpg" class="col-2" alt="Tribes">
+                                <img src="assets/img/media/media13.jpg" class="col-2" alt="Narcos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media0.webp" class="col-2" alt="Sherlock">
+                                <img src="assets/img/media/media1.jpg" class="col-2" alt="American History">
+                                <img src="assets/img/media/media10.jpg" class="col-2" alt="Spy">
+                                <img src="assets/img/media/media11.jpg" class="col-2" alt="The College">
+                                <img src="assets/img/media/media12.jpg" class="col-2" alt="Tribes">
+                                <img src="assets/img/media/media13.jpg" class="col-2" alt="Narcos">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+
+        <div class="py-4">
+            <h2 class="h4 ps-5">What It Again</h2>
+            <div id="WhatItAgainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media14.webp" class="col-2" alt="Breaking Bad">
+                                <img src="assets/img/media/media15.jpg" class="col-2" alt="Explained">
+                                <img src="assets/img/media/media16.webp" class="col-2" alt="Rick and Morty">
+                                <img src="assets/img/media/media17.jpg" class="col-2" alt="The White Helmets">
+                                <img src="assets/img/media/media18.jpg" class="col-2" alt="SpyCraft">
+                                <img src="assets/img/media/media19.webp" class="col-2" alt="BetterCallSaul">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media14.webp" class="col-2" alt="Breaking Bad">
+                                <img src="assets/img/media/media15.jpg" class="col-2" alt="Explained">
+                                <img src="assets/img/media/media16.webp" class="col-2" alt="Rick and Morty">
+                                <img src="assets/img/media/media17.jpg" class="col-2" alt="The White Helmets">
+                                <img src="assets/img/media/media18.jpg" class="col-2" alt="SpyCraft">
+                                <img src="assets/img/media/media19.webp" class="col-2" alt="BetterCallSaul">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+
+        </div>
+
+        <div class="py-4">
+            <h2 class="h4 ps-5">New Release</h2>
+            <div id="NewReleaseCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media2.webp" class="col-2" alt="The Good Place">
+                                <img src="assets/img/media/media20.jpg" class="col-2" alt="Inside Bill Brain">
+                                <img src="assets/img/media/media21.webp" class="col-2" alt="Vikings">
+                                <img src="assets/img/media/media22.webp" class="col-2" alt="How I Met Your Mother">
+                                <img src="assets/img/media/media23.webp" class="col-2" alt="BigDream">
+                                <img src="assets/img/media/media24.jpg" class="col-2" alt="Our Planet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+
+                            <div class="row">
+                                <img src="assets/img/media/media2.webp" class="col-2" alt="The Good Place">
+                                <img src="assets/img/media/media20.jpg" class="col-2" alt="Inside Bill Brain">
+                                <img src="assets/img/media/media21.webp" class="col-2" alt="Vikings">
+                                <img src="assets/img/media/media22.webp" class="col-2" alt="How I Met Your Mother">
+                                <img src="assets/img/media/media23.webp" class="col-2" alt="BigDream">
+                                <img src="assets/img/media/media24.jpg" class="col-2" alt="Our Planet">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+
+        </div>
+    </section>
+    <footer class="pt-5 px-5 mx-5">
+        <div>
+            <div class="px-5 mx-5">
+                <div class="px-4">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around">
+                <div>
+                    <p>Audio and Subtitles</p>
+                    <p>Media Center</p>
+                    <p>Privacy</p>
+                    <p>Contacs</p>
+
+
+                </div>
+                <div>
+                    <p>Audio Description</p>
+                    <p>Investor Relations</p>
+                    <p>Legal Notices</p>
+                </div>
+                <div>
+                    <p>Help Center</p>
+                    <p>Jobs</p>
+                    <p>Cookie Preferences</p>
+                </div>
+
+            </div>
+            <button class="mx-5 px-5 text-white bg-dark border border-white">Service Code</button>
+            <p class="mx-5 px-5"><i class="bi bi-c-circle"></i>1997-2019 Netflix,Inc.</p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
